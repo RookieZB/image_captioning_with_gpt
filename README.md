@@ -1,2 +1,7 @@
-# image_captioning_with_gpt
-A simple idea to implement image captioning using GPT-2 and MobileNet V3.
+## Description
+The idea of this model, is to concatenate image features and text features along the length axis in GPT's attention modules, so the attention weights will be assigned to both image pixels and text tokens. This implementation is mainly for fun, and may contain some mistakes.  
+Need pretrained GPT-2 (124m) and MobileNet V3 (small, dm=1, float) for running this code.
+## References
+https://github.com/tensorflow/models  
+https://github.com/google-research/bert  
+https://github.com/openai/gpt-2
